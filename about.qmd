@@ -1,0 +1,92 @@
+---
+title: "About"
+toc: true
+toc-location: left
+preview: "About Thomas Lamy"
+lightbox: true
+execute: 
+  echo: false
+  warning: false
+---
+
+```{r setup}
+source("_common.R")
+```
+
+I am a marine ecologist at the **French Research Institute for Sustainable Development** ([**IRD**](https://www.ird.fr/)). My interests span community ecology, biodiversity monitoring, ecosystem resilience, marine conservation, small-scale fisheries, and food security, with a focus on integrating ecological and human sciences in coastal environments.
+
+# 📝 Brief Summary 
+![](images/Sand-eels_fidji.jpg){ width=100% }  
+My research lies at the intersection of ecology and sustainability, with a focus on the **biodiversity**, **resilience**, and **conservation** of coastal ecosystems.
+
+I bridge ecological theory and applied conservation to address global challenges such as climate change and biodiversity loss. My work is **interdisciplinary**, integrating ecological, genetic, and social dimensions to better understand the dynamics of marine ecosystems and their role in supporting coastal communities. 
+
+To this end, my approach combines long-term ecological monitoring, innovative tools like DNA metabarcoding, and advanced statistical modeling to inform effective conservation strategies.
+
+I primarily work on **tropical coral reefs** and **temperate kelp forests**—two critical ecosystems for both biodiversity and human societies.
+
+You can see more about my research on my [Research Page](research.qmd).
+
+
+# 👤 Short Bio
+<center>
+  <img src="images/Photo_Thomas_plongée2.jpg" width="40%">
+</center>
+
+My research journey began during my master’s studies, with an early focus on host–parasite interactions at the **Smithsonian Tropical Research Institute** in Panama. I then turned to marine phylogeography, studying the evolutionary history of European kelp species at the **Station Biologique de Roscoff** in France. 
+
+During my PhD at the **University of Montpelier**, I investigated the links between population genetics and community ecology using freshwater snails in the French West Indies as a model system. My work focused on species persistence in fragmented, unstable landscapes and the connections between different levels of biodiversity. I combined ecological and genetic approaches to develop one of the most detailed quantitative models of a natural metapopulation, revealing a persistence-competition trade-off that helps explain species coexistence in that system. I also demonstrated how habitat connectivity can drive positive correlations between genetic and species diversity (SGDCs), combining empirical research, theoretical modeling, and meta-analysis.
+
+After completing my Ph.D., I held a postdoctoral position at the **Centre for Island Research and Environmental Observatory** (**CRIOBE**) from 2012 to 2013, where I began investigating the resilience and stability of coral reef ecosystems facing multiple and recurrent disturbances. From 2013 to 2015, I continued this line of research at the **University of Montréal** (Canada), while also expanding my work into evolutionary ecology.
+
+Between 2015 and 2021, I was based at the **Marine Science Institute** at the **University of California, Santa Barbara** (USA), where I conducted research within two large interdisciplinary programs: the **Marine Biodiversity Observation Network** (**MBON**) and the **Long-Term Ecological Research** (**LTER**) program. My work focused on ecosystem stability through space and time. I developed new statistical frameworks to link ecological stability across spatial scales and organizational levels, combining empirical data, statistical modeling, and meta-analyses. Using long-term spatio-temporal ecological monitoring datasets—primarily from kelp forests, but also from a range of ecosystems within the LTER Network—my work demonstrated how spatial relationships among communities are critical for maintaining ecosystem stability. Finally, I explored new approaches to marine biodiversity monitoring within the SBC LTER abd MBON, focusing on environmental DNA (eDNA) metabarcoding. This work showed that eDNA can effectively capture the diversity of marine fish communities with greater taxonomic resolution and far less field effort than traditional methods.
+
+Since 2022, I have been a permanent research scientist (CRCN) at the **French National Research Institute for Sustainable Development** (**IRD**),
+
+
+# 🎓 Teaching
+
+I am a passionate educator with a strong foundation in teaching, earned through the French *Agrégation* in Life and Earth Sciences. I have taught a wide range of courses—from ecology and evolutionary biology to statistics with R—across universities in France and Canada. My approach combines interactive, research-based learning with a focus on student engagement, mentoring, and real-world application.
+
+<!-- Remove margin under list items -->
+```{=html}
+<style>
+ol {
+    margin-bottom: 5px;
+}
+p {
+  margin: 5px 0 0 0;
+}
+</style>
+```
+
+# <i class="fas fa-graduation-cap"></i> Education
+
+**2012**  
+**Ph.D. in Evolutionary Ecology**  
+*University of Montpellier, Montpellier, France*  
+Title: "From population genetics to community ecology: the case of the freshwater snail metacommunity in the French West Indies"  
+
+**2008**  
+**Master (2nd year) in Oceanography and Marine Ecology**  
+*University Pierre and Marie Curie, Paris, France*  
+
+**2007**  
+**Agrégation in Life and Earth Sciences (teaching grade)**  
+*Ecole Normale Supérieure (ENS), Paris, France*  
+
+**2006**  
+**Master (1st year) in Ecology and Evolution**  
+*Ecole Normale Supérieure (ENS), Paris, France*  
+
+**2005**  
+**Bachelor of Science in Biology**  
+*University of Nice Sophia-Antipolis, Nice, France*  
+
+# 📬 Contact
+Thomas Lamy  
+UMR MARBEC  
+Université de Montpellier, Place Eugène Bataillon - bâtiment 24 - CC093  
+34 095 Montpellier Cedex 5  
+
+Email: [thomas.lamy@ird.fr](mailto:thomas.lamy@ird.fr)

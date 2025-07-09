@@ -1,0 +1,44 @@
+---
+title: "ARMS Resilience (2025-2028)"
+subtitle: "ARMS Resilience: Strengthening reefs and food systems against a climate-induced famine"
+date: 2025-03-15
+categories:
+  - Conservation
+  - Resilience
+  - Small-scale fisheries
+  - Herbivory
+  - Aquatic food systems
+image: "ARMS_mada.png"
+title-block-banner: false
+title-block-style: none
+page-class: project-page
+layout: single
+---
+
+::: {.project-meta}
+**Start – End:** July 2025 – July 2028  
+**Funding:** Forum Belmont  
+**Budget:** 1 400 000 € (400 000 € IRD)  
+**Role:** IRD PI
+**Geographic area:** Madagascar
+**[Official website](https://belmontforum.org/archives/news/arms-resilience-strengthening-reefs-and-food-systems-in-madagascar/)**
+:::
+
+The ARMS Resilience project is tackling the issue of food insecurity in Southwest Madagascar, exacerbated by recurring droughts and climate stressors. Collaborating with Indigenous communities, the project is restoring coral reefs and enhancing marine food yields to bolster the local food supply.
+
+By integrating environmental, ecological, agricultural, fisheries, and human data, ARMS Resilience is developing a decision framework that combines traditional scientific and Indigenous knowledge to meet nutritional needs. The project’s transdisciplinary approach focuses on capacity building, research, and empowering local communities to address both environmental and food security challenges. Through these efforts, ARMS Resilience aims to enhance the climate resilience of coral reefs and ensure a sustainable food source for a region facing the impacts of climate challenges.
+
+## Summary
+Southwest Madagascar is experiencing the first climate-induced famine, as prolonged drought is causing agricultural failure. In response, Indigenous agriculturalists are migrating to coasts in search of livelihoods and food, increasing pressure on coral reef resources. The ability of coral reefs to support ~1 billion humans globally is declining due to climate change, overfishing, and pollution. In places such as Bay of Ranobe, Madagascar, other food resources cannot make up food deficits, making reef decline a particularly grave threat to these malnourished populations. Our team is collaborating with Indigenous communities to implement an ecosystem-scale coral reef restoration approach to enhance yields of nutrient-rich marine foods. We are quantifying numerous environmental and human metrics to test the efficacy of this food enhancement approach. Through CEH2 we propose to broaden our scope and: (1) create a decision framework to identify pathways to meet nutritional needs, (2) populate the framework with our traditional scientific data and Indigenous knowledges, (3) continue collecting environmental and human data to identify temporal trends, the efficacy of food system interventions, and the efficacy of our reef restoration approach, (4) model current and future nutrient availability to find food portfolios that buffer against food insecurity in a changing climate, (5) identify the most sensitive indicators of food system changes to create an early warning system and pathways to adapt, (6) enhance climate resilience of coral reefs, the central food source in the region, by increasing offsetting ecological functions, and (7) continue training the next generation of Malagasy scientists. Our team includes expertise across the social and natural sciences, including academia, government, community organizations, and international NGOs. Our commitment to transdisciplinary research, capacity building, and new scalable ways to promote ecological, planetary, and human health with a focus on women will fight climate adversity and empower Indigenous communities.
+
+![Small-scale fisheries in Madagascar](Madagascar_2022_01-30.jpg){ width=50% }  
+
+## Partner organizations
+- [Institut halieutique et des sciences marines (IH.SM) Madagascar](https://student.ihsm.mg/)
+- [Laboratoire Mixe International (LMI) MIKAROKA between IRD and IH.SM Madagascar](https://mikaroka.ihsm.mg/)
+- [Reef Doctor](https://www.reefdoctor.org/)
+- [Harvard TH Chan School of Public Health](https://hsph.harvard.edu/)
+- [Perry Institute for Marine Science](https://www.perryinstitute.org/)
+
+## Students involved
+

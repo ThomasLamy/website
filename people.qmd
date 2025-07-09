@@ -1,0 +1,10 @@
+---
+title: "people"
+format: html
+---
+
+# Under construction
+
+<center>
+  <img src="images/team_at_RD.jpg" width="100%">
+</center>

@@ -1,0 +1,22 @@
+---
+title: "Research Projects"
+description: |
+  This page describes my current and past research projects 
+listing: 
+  type: grid
+  contents:
+    - "/*/index.qmd"
+  fields: [title, subtitle, categories, image]
+  sort: "date desc"
+  filter-ui: false
+  image-align: left
+  image-height: 100%
+format: 
+  html: 
+    page-layout: full
+title-block-banner: false
+header-includes: |
+  <link rel="stylesheet" href="../css/listing-default.css">
+resources:
+  - ../css/listing-default.css
+---

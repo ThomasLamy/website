@@ -1,0 +1,22 @@
+# Freeze computed outputs
+execute: 
+  freeze: true
+
+# Desable banner style title blocks (show the image on the grid only, and not in the project page header)
+title-block-banner: false
+
+# Default fields for citation
+citation: false
+
+# Default for table of contents
+toc: true
+toc-title: Table of contents
+toc-location: right
+
+# Wrap overflow code
+format: 
+  html: 
+    code-overflow: wrap
+    template-partials: 
+      - ../_partials/title-block-link-buttons/title-block.html
+

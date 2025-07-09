@@ -1,0 +1,50 @@
+---
+title: "Thomas Lamy"
+description: "Marine Ecology in a changing world"
+image: "images/tlamy_circle2.jpg"
+execute: 
+  echo: false
+  warning: false
+title-block-banner: "#00000000"
+title-block-banner-color: "#ffffff"
+include-in-header:
+  - text: |
+      <style>
+      #title-block-header.quarto-title-block.default .quarto-title-meta {
+        color: #000000;
+      }
+      .quarto-title-block .quarto-title-banner {
+        height: 0;
+      }
+      #title-block-header {
+        background-image: url(images/Pano_Mangily.jpg);
+        background-size: cover;
+        background-position-y: center;
+        height: 200px;
+      }
+      </style>
+about:
+  template: trestles
+  links:
+    - icon: github
+      href: https://github.com/ThomasLamy
+    - text: '<i class="fa fa-brands fa-bluesky"></i>'
+      href: https://bsky.app/profile/thomaslamy.bsky.social
+    - icon: linkedin
+      href: https://www.linkedin.com/in/thomas-lamy-2a6419130/
+    - text: '<i class="ai ai-google-scholar fa-lg"></i>'
+      href: https://scholar.google.fr/citations?user=i3F3Q2UAAAAJ
+    - text: '<i class="ai ai-researchgate fa-lg"></i>'
+      href: https://www.researchgate.net/profile/Thomas-Lamy-3?ev=hdr_xprf
+    - text: '<i class="ai ai-orcid fa-lg"></i>'
+      href: https://orcid.org/0000-0002-7881-0578
+---
+
+```{r setup}
+source("_common.R")
+```
+
+### Marine Ecology in a changing world
+
+I am a marine ecologist at the **French Research Institute for Sustainable Development** ([**IRD**](https://www.ird.fr/)), working within the [**MARBEC**]((http://www.umr-marbec.fr/)) (MArine Biodiversity Exploitation and Conservation) laboratory. My research lies at the intersection of ecology and sustainability, with a focus on the biodiversity, resilience, and conservation of coastal ecosystems.
+

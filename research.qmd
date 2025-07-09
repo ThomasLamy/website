@@ -1,0 +1,65 @@
+---
+title: "Research"
+preview: images/Ecology_cover_2020.jpg
+execute: 
+  echo: false
+  message: false
+  warning: false
+format: html 
+toc: true
+toc-location: left
+---
+
+Most of my current research is based in the **Western Indian Ocean**, particularly in **Madagascar**, and is supported by two major projects: [**ARMS Resilience**](projects/2025-ARMS_resilience/index.qmd) in Madagascar and [**MESCAL**](projects/2025-mescal/index.qmd), which spans the eastern coast of Africa, including South Africa, Mozambique, Tanzania, and Kenya. For more details on my [Projects Page](project/).
+
+Below is my list of research articles.
+
+<!-- Remove margin under list items -->
+
+```{=html}
+<style>
+ol {
+    margin-bottom: 5px;
+}
+p {
+  margin: 5px 0 0 0;
+}
+</style>
+```
+
+```{r setup}
+source("_common.R")
+
+# Update local copy of "pubs" Google sheet
+# write_csv(get_pubs(), here::here('content', 'pubs.csv'))
+
+# Get local copy of pubs
+# pubs <- read_csv(here::here('content', 'pubs.csv'))
+
+# Get pubs from Google sheet
+pubs <- get_pubs()
+```
+
+<center>
+
+
+
+`r htmltools::HTML(paste0(icon_link(icon = "ai ai-google-scholar", text = "Google Scholar", url  = "https://scholar.google.fr/citations?user=i3F3Q2UAAAAJ&hl=fr"), icon_link(icon = "ai ai-orcid", text = "ORCID", url  = "https://orcid.org/0000-0002-7881-0578"), icon_link(icon = "ai ai-researchgate", text = "Research Gate", url = "https://www.researchgate.net/profile/Thomas-Lamy-3?ev=hdr_xprf")))`
+
+<br>
+
+<u>Underline</u> indicates advisee; \* graduate student, \*\*undergraduate student
+
+</center>
+
+<br>
+
+## In preparation or in review Articles
+
+`r make_pub_list(pubs, "in_prep")`
+
+## Peer-Reviewed Journal Articles
+
+`r make_pub_list(pubs, "peer_reviewed")`
+
+

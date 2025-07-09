@@ -1,0 +1,37 @@
+project:
+  type: website
+  resources:
+    - "content/"
+    - "css"
+
+website:
+  title: "Thomas Lamy"
+  description: "The personal website of Thomas Lamy"
+  image: images/tlamy_circle.png
+  search:
+    location: navbar
+    type: overlay
+  back-to-top-navigation: false
+  navbar:
+    right:
+      - text: "Home"
+        href: index.qmd
+      - text: "News"
+        href: news.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Projects"
+        href: projects/index.qmd
+      - text: "People"
+        href: people.qmd
+
+format:
+  html:
+    theme: [default, css/theme.scss]
+    anchor-sections: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    link-external-icon: false
+    include-in-header: "_includes/header.html"

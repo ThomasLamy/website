@@ -1,0 +1,16 @@
+---
+title: "news"
+format: html
+---
+
+<script src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
+
+## 🔗 Latest Bluesky Updates (coming soon!)
+
+<bsky-embed username="thomaslamy.bsky.social" limit="5" custom-styles=".bsky-embed-container { max-width: 600px; }"></bsky-embed>
+
+## 🔗 Latest LinkedIn Updates (coming soon!)
+
+- 📢 [(coming soon!)]()
+
+👉 Follow me on [LinkedIn](https://www.linkedin.com/in/thomas-lamy-2a6419130/) for more updates.

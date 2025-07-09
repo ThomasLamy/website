@@ -1,0 +1,63 @@
+---
+title: "MESCAL (2025-2028)"
+subtitle: "Multiscale connectivity at species and community levels to achieve conservation goals under climate change in the Western Indian Ocean"
+date: 2025-01-01
+categories:
+  - Conservation
+  - Climate change
+  - Resilience
+  - Western Indian Ocean
+image: "mescal-logo-color-no-title.jpg"
+title-block-banner: false
+title-block-style: none
+page-class: project-page
+layout: single
+---
+
+::: {.project-meta}
+**Start – End:** January 2025 – December 2028  
+**Funding:** ANR, AFD, NRF, COSTECH and NRF Kenya 
+**Budget:** 1 000 000 €  
+**Role:** PI together with David M. Kaplan
+**Geographic area:** Kenya, Tanzania, Mozambique and South Africa
+**[Official website](https://www.mescal-project.org/)**
+:::
+
+MESCAL is a 4 year project beginning in June 2025 directed by Thomas Lamy and David M. Kaplan involving partners from 5 countries. The overall objective of the project is to understand the role of marine protected areas (MPAs) in assuring climate resilience of coastal marine ecosystems in East Africa via protection of intra- and inter-specific diversity and exchange of individuals via larval dispersal. For more details, see [offical website](https://www.mescal-project.org/)
+
+## Summary
+Climate change threatens the long-term sustainability of marine ecosystems. Although Marine protected areas (MPAs) are recognized as an effective tool to protect harvested species and biodiversity, they were not designed to increase the resilience of marine ecosystems to climate change. A major issue that remains to be explored is whether and by what mechanisms current and future MPAs can simultaneously buffer intraspecific (genotypes and phenotypes) diversity and community diversity against climate change, thereby enhancing sustainability of marine ecosystems. In this context, connectivity plays a pivotal role by potentially ensuring that individuals from climate or fishing refugia can repopulate impacted areas. These questions are particularly important in the Western Indian Ocean (WIO), given that warming and fishing exploitation in this region are increasing at an alarming rate. In the WIO, fish support key ecological functions and are the primary source of protein and income for coastal communities, and the creation or expansion of MPAs is a promising mitigation measure for the negative impacts of climate change on fish stocks. To address these issues, this project will focus on the eastern African coastline from Kenya to South Africa and address five key interconnected objectives. (1) First, we will produce high resolution estimates of future changes in environmental conditions and connectivity. (2) Next, we will test whether MPAs harbor individuals of high physiological performance resilient to climate change and identify the genetic origins of these traits. (3) Then, we will test whether MPAs safeguard ecologically important and vulnerable species, and prevent marine ecosystems and associated fisheries from crossing tipping points where climate change will drastically alter their structure. (4) Previous steps will be integrated to assess of how the ecological connectivity of current and potential future MPA networks can enhance resilience to temperature change at the species and community levels of organization. (5) Finally, bi-lateral exchanges with stakeholders in the WIO will be used to quantify their preferences fonr different spatial management options as mitigation for climate change and fishing exploitation. It will be essential for optimizing our recommendations for future management to best achieve long-term sustainability of marine ecosystems faced with climate change.
+
+Our project will involve 10 funded partners, 5 collaborating partners and at least 21 participants from 5 countries. We will leverage and expand on existing research programs and the extensive expertise of the project partners to produce a large set of results essential to effective management of WIO marine ecosystems. We have already contacted stakeholders and MPA authorities in the study region (e.g., SANParks, Kenya Wildlife Service & MPA wardens in Tanzania & Mozambique) and they are enthusiastic about project objectives. This project addresses the four main questions (2.1 to 2.4) and 9 out of the 13 issues (monitoring, indicators, modeling circulations, multi-level connectivity, iconic and vulnerable species and ecosystems, MPA network, mapping pressures, local perceptions and knowledge, knowledge sharing) laid out in the call for proposals.
+
+Keywords: climate change, marine spatial planning, larval dispersal, genomics, environmental DNA (eDNA), fish physiology, hydrodynamical models, dispersal models, population models, species distribution models, ecosystem models, monitoring tools, local ecological knowledge, discrete choice experiments.
+
+
+## Partner organizations
+The project involves 15 partners from 5 different countries: France, South Africa, Mozambique, Tanzania and Kenya.
+
+- **France**
+  - [UMR MARBEC](https://umr-marbec.fr/){target="_blank"}
+  - [CUFR (Mayotte)](https://www.univ-mayotte.fr){target="_blank"}
+  - [SeBiMER](https://sebimer.ifremer.fr/){target="_blank"}
+  - [UMR LOPS](http://www.umr-lops.fr/){target="_blank"}
+- **South Africa**
+  - [Nelson Mandela University (NMU)](https://www.mandela.ac.za/){target="_blank"}
+  - [Rhodes University (RU)](https://www.ru.ac.za/){target="_blank"}
+  - [South African Association for Marine Biological Research (SAAMBR)](https://saambr.org.za/){target="_blank"}
+  - [University of Cape Town (UCT)](https://uct.ac.za/){target="_blank"}
+  - [University of Johannesburg (UJ)](https://www.uj.ac.za/){target="_blank"}
+  - [University of Pretoria (UP)](https://www.up.ac.za/){target="_blank"}
+- **Mozambique:**
+  - [Instituto Oceanográfico de Moçambique (InOM)](https://mozambique.wcs.org/About-Us/News/ID/23632.aspx){target="_blank"}
+- **Tanzania:**
+  - [State University of Zanzibar (SUZA)](https://suza.ac.tz/){target="_blank"}
+  - [Institute of Marine sciences: University of Dar es salaam (UDSM)](https://www.udsm.ac.tz/){target="_blank"}
+- **Kenya:**
+  - [Kenya Marine and Fisheries Research Institute (KMFRI)](https://www.kmfri.go.ke/){target="_blank"}
+  - [Wildlife Research and Training Institute (WRTI)](https://wrti.go.ke/){target="_blank"}
+
+![Map of MESCAL participating partners](mescal-partner-map.png)
+
+## Students involved
+
