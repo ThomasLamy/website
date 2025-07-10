@@ -1,0 +1,97 @@
+/* Remove default banner styling */
+#title-block-header,
+#title-block-header-title {
+  all: unset;
+  background-image: none !important;
+}
+
+/* Page title styling */
+#title-block-header.quarto-title-block.default .quarto-title .title {
+  font-size: 2.5em;
+  text-align: center;
+  margin: 0 0 -0.5em 0;
+}
+
+/* Page description */
+.description p {
+  text-align: center;
+  margin: 0 1em 10em 1em;
+  padding: 0 0 5em 0;
+}
+
+.description a {
+  text-decoration: underline !important;
+}
+.description a:hover {
+  text-decoration: none !important;
+}
+
+/* Card container */
+.card {
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+/* Card image */
+.card-img {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 4 / 3;
+  border-radius: 8px 8px 0 0;
+}
+
+/* Card title (project acronym) */
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #2c3f51;
+  margin: 0.6rem 0 0.25rem 0;
+  padding: 0 1rem;
+}
+
+/* Full project name (subtitle) */
+.card-subtitle {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #666;
+  margin-bottom: 0.2rem;
+  padding: 0 1rem;
+}
+
+/* Project period (custom field: period) */
+.card-description {
+  font-size: 0.95rem;
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 0.5rem;
+  padding: 0 1rem;
+}
+
+.card-description::before {
+  content: "🗓️ ";
+  margin-right: 0.2em;
+}
+
+/* Category pills */
+.quarto-category {
+  background-color: #5480a7;
+  color: white;
+  padding: 0.2em 0.6em;
+  font-size: 0.75rem;
+  border-radius: 0.4em;
+  margin: 0 0.4em 0.4em 0;
+  display: inline-block;
+}
+
+.card .quarto-categories {
+  padding: 0 1rem 1rem 1rem;
+}
