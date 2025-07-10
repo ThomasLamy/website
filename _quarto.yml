@@ -4,6 +4,7 @@ project:
   resources:
     - "content/"
     - "css"
+    - CNAME
 
 website:
   title: "Thomas Lamy"

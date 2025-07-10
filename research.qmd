@@ -10,7 +10,7 @@ toc: true
 toc-location: left
 ---
 
-Most of my current research is based in the **Western Indian Ocean**, particularly in **Madagascar**, and is supported by two major projects: [**ARMS Resilience**](projects/2025-ARMS_resilience/index.qmd) in Madagascar and [**MESCAL**](projects/2025-mescal/index.qmd), which spans the eastern coast of Africa, including South Africa, Mozambique, Tanzania, and Kenya. For more details on my [Projects Page](project/).
+Most of my current research is based in the **Western Indian Ocean**, particularly in **Madagascar**, and is supported by two major projects: [**ARMS Resilience**](projects/2025-ARMS_resilience/index.qmd) in Madagascar and [**MESCAL**](projects/2025-mescal/index.qmd), which spans the eastern coast of Africa, including South Africa, Mozambique, Tanzania, and Kenya. For more details vist my [Projects Page](project/).
 
 Below is my list of research articles.
 

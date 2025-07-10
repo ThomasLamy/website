@@ -16,11 +16,11 @@ layout: single
 
 ::: {.project-meta}
 **Start – End:** January 2025 – December 2028  
-**Funding:** ANR, AFD, NRF, COSTECH and NRF Kenya 
-**Budget:** 1 000 000 €  
-**Role:** PI together with David M. Kaplan
-**Geographic area:** Kenya, Tanzania, Mozambique and South Africa
-**[Official website](https://www.mescal-project.org/)**
+**Funding:** ANR, AFD, NRF, COSTECH and NRF Kenya   
+**Budget:** 1 000 000 €   
+**Role:** PI together with David M. Kaplan   
+**Geographic area:** Kenya, Tanzania, Mozambique and South Africa   
+**[Official website](https://www.mescal-project.org/)**   
 :::
 
 MESCAL is a 4 year project beginning in June 2025 directed by Thomas Lamy and David M. Kaplan involving partners from 5 countries. The overall objective of the project is to understand the role of marine protected areas (MPAs) in assuring climate resilience of coastal marine ecosystems in East Africa via protection of intra- and inter-specific diversity and exchange of individuals via larval dispersal. For more details, see [offical website](https://www.mescal-project.org/)
