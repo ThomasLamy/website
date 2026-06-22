@@ -1,7 +1,7 @@
 ---
 title: "Thomas Lamy"
 description: "Marine Ecology in a changing world"
-image: "images/tlamy_circle2.jpg"
+image: "images/tlamy_circle2.png"
 execute: 
   echo: false
   warning: false
@@ -28,7 +28,7 @@ about:
   links:
     - icon: github
       href: https://github.com/ThomasLamy
-    - text: '<i class="fa fa-brands fa-bluesky"></i>'
+    - text: '<i class="fa-brands fa-bluesky"></i>'
       href: https://bsky.app/profile/thomaslamy.bsky.social
     - icon: linkedin
       href: https://www.linkedin.com/in/thomas-lamy-2a6419130/
@@ -46,5 +46,5 @@ source("_common.R")
 
 ### Marine Ecology in a changing world
 
-I am a marine ecologist at the **French Research Institute for Sustainable Development** ([**IRD**](https://www.ird.fr/)), working within the [**MARBEC**]((http://www.umr-marbec.fr/)) (MArine Biodiversity Exploitation and Conservation) laboratory. My research lies at the intersection of ecology and sustainability, with a focus on the biodiversity, resilience, and conservation of coastal ecosystems.
+I am a marine ecologist at the **French Research Institute for Sustainable Development** ([**IRD**](https://www.ird.fr/)), working within the [**MARBEC**](https://www.umr-marbec.fr/) (MArine Biodiversity Exploitation and Conservation) laboratory. My research lies at the intersection of ecology and sustainability, with a focus on the biodiversity, resilience, and conservation of coastal ecosystems.
 

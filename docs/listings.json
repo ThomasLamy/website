@@ -1,5 +1,9 @@
 [
   {
+    "listing": "/news/index.html",
+    "items": []
+  },
+  {
     "listing": "/projects/index.html",
     "items": [
       "/projects/2025-ARMS_resilience/index.html",

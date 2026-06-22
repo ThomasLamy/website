@@ -2,5 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
-
+CLAUDE.md
 /.quarto/
+**/.DS_Store
+~$*.xlsx

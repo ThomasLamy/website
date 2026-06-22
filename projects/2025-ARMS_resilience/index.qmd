@@ -17,10 +17,10 @@ layout: single
 
 ::: {.project-meta}
 **Start – End:** July 2025 – July 2028  
-**Funding:** Forum Belmont  
+**Funding:** Belmont Forum  
 **Budget:** 1 400 000 € (400 000 € IRD)  
-**Role:** IRD PI  
-**Geographic area:** Madagascar  
+**Role:** IRD PI
+**Geographic area:** Madagascar
 **[Official website](https://belmontforum.org/archives/news/arms-resilience-strengthening-reefs-and-food-systems-in-madagascar/)**
 :::
 

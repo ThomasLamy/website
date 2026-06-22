@@ -135,7 +135,7 @@ background: #00000000;
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./news.html"> 
+    <a class="nav-link" href="./news/index.html"> 
 <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
@@ -182,7 +182,7 @@ background: #00000000;
 <!-- main -->
 <div class="quarto-about-trestles">
   <div class="about-entity">
-    <img src="images/tlamy_circle2.jpg" class="about-image
+    <img src="images/tlamy_circle2.png" class="about-image
   rounded " style="width: 20em;">
 
     <div class="about-links">
@@ -191,7 +191,7 @@ background: #00000000;
      <span class="about-link-text"></span>
   </a>
   <a href="https://bsky.app/profile/thomaslamy.bsky.social" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="fa fa-brands fa-bluesky"></i></span>
+     <span class="about-link-text"><i class="fa-brands fa-bluesky"></i></span>
   </a>
   <a href="https://www.linkedin.com/in/thomas-lamy-2a6419130/" class="about-link" rel="" target="">
     <i class="bi bi-linkedin"></i>
@@ -211,7 +211,7 @@ background: #00000000;
   <div class="about-contents"><main class="content quarto-banner-title-block" id="quarto-document-content">
 <section id="marine-ecology-in-a-changing-world" class="level3">
 <h3 data-anchor-id="marine-ecology-in-a-changing-world">Marine Ecology in a changing world</h3>
-<p>I am a marine ecologist at the <strong>French Research Institute for Sustainable Development</strong> (<a href="https://www.ird.fr/"><strong>IRD</strong></a>), working within the <a href="(http://www.umr-marbec.fr/)"><strong>MARBEC</strong></a> (MArine Biodiversity Exploitation and Conservation) laboratory. My research lies at the intersection of ecology and sustainability, with a focus on the biodiversity, resilience, and conservation of coastal ecosystems.</p>
+<p>I am a marine ecologist at the <strong>French Research Institute for Sustainable Development</strong> (<a href="https://www.ird.fr/"><strong>IRD</strong></a>), working within the <a href="https://www.umr-marbec.fr/"><strong>MARBEC</strong></a> (MArine Biodiversity Exploitation and Conservation) laboratory. My research lies at the intersection of ecology and sustainability, with a focus on the biodiversity, resilience, and conservation of coastal ecosystems.</p>
 
 
 </section>
@@ -283,7 +283,7 @@ background: #00000000;
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/thomaslamy\.com");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

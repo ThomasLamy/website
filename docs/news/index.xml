@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Thomas Lamy</title>
+<link>https://thomaslamy.com/news/</link>
+<atom:link href="https://thomaslamy.com/news/index.xml" rel="self" type="application/rss+xml"/>
+<description>The personal website of Thomas Lamy</description>
+<image>
+<url>https://thomaslamy.com/images/tlamy_circle2.png</url>
+<title>Thomas Lamy</title>
+<link>https://thomaslamy.com/news/</link>
+<height>145</height>
+<width>144</width>
+</image>
+<generator>quarto-1.7.29</generator>
+<lastBuildDate>Mon, 22 Jun 2026 21:44:55 GMT</lastBuildDate>
+</channel>
+</rss>

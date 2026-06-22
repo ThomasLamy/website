@@ -105,7 +105,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../news.html"> 
+    <a class="nav-link" href="../../news/index.html"> 
 <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
@@ -171,8 +171,8 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="summary">Summary</h2>
 <p><img src="featured.png" class="img-fluid" alt="Herbivore fishes in Madagascar"> Understanding herbivory in coral reefs is critical to assessing reef resilience, yet our current knowledge is severely limited due to a lack of high-resolution trophic data. Traditionally, fish species have been grouped into broad functional categories, which oversimplifies complex trophic interactions and masks important ecological differences among species. In coral reef systems, especially, herbivory is a key ecological process that helps prevent algal overgrowth and supports coral recruitment. However, we still know remarkably little about what most tropical herbivorous fishes actually eat and how their diets differ within and among species.</p>
 <p>Herbivorous fish species are believed to partition resources through different mechanisms, such as spatial segregation or targeting distinct sets of algal resources. These processes shape how the herbivory function operates and influence the structure and stability of the herbivore–algae network. For instance, low trophic niche overlap among species can signal high functional complementarity, meaning the herbivory function depends on a diversity of species. In such cases, species loss may lead to critical ecological disruptions. On the other hand, high redundancy in trophic roles could buffer reef systems against biodiversity loss by ensuring functional compensation among species.</p>
-<p><strong>Goal 1</strong> of our project addresses these knowledge gaps by applying a novel, DNA-based approach to reconstruct fine-scale trophic networks. Specifically, we will use <strong>DNA metabarcoding</strong> of <strong>gut contents</strong> to determine the way herbivorous fishes achieve herbivory on coral reefs by assessing the extent to which they feed on a similar set of resources or not. We will foucus on the five most abundant herbivore species in Ranobe Bay to build a network of trophic interactions and understand the fine-scale resource partitioning within and among species</p>
-<p><strong>Goal 2</strong> will be to leverage ongoing GPS tracking and participatory catch survey to estimate fishing pressure on herbivorous fishes. Then, our <strong>Goal 2</strong> will be to characterize the impact of overfishing on the structure and stability of the algal-herbivore network by combing information on fishing pressure with both detailed information on algal-herbivore trophic interactions (<strong>Goal 1</strong>) and in situ fish surveys to test if the loss of key trophic interactions can alter herbivory or if the reconfiguration of algal-herbivore networks can maintain herbivory.</p>
+<p><strong>Goal 1</strong> of our project addresses these knowledge gaps by applying a novel, DNA-based approach to reconstruct fine-scale trophic networks. Specifically, we will use <strong>DNA metabarcoding</strong> of <strong>gut contents</strong> to determine the way herbivorous fishes achieve herbivory on coral reefs by assessing the extent to which they feed on a similar set of resources or not. We will focus on the five most abundant herbivore species in Ranobe Bay to build a network of trophic interactions and understand the fine-scale resource partitioning within and among species</p>
+<p><strong>Goal 2</strong> will be to leverage ongoing GPS tracking and participatory catch survey to estimate fishing pressure on herbivorous fishes. Then, our <strong>Goal 2</strong> will be to characterize the impact of overfishing on the structure and stability of the algal-herbivore network by combining information on fishing pressure with both detailed information on algal-herbivore trophic interactions (<strong>Goal 1</strong>) and in situ fish surveys to test if the loss of key trophic interactions can alter herbivory or if the reconfiguration of algal-herbivore networks can maintain herbivory.</p>
 <p>Together, these objectives will yield critical insights into coral reef resilience, trophic dynamics, and the effects of fishing, with broader implications for sustainable fisheries management and conservation in Madagascar.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -276,7 +276,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/thomaslamy\.com");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

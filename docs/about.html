@@ -104,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./news.html"> 
+    <a class="nav-link" href="./news/index.html"> 
 <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
@@ -188,10 +188,10 @@ My research lies at the intersection of ecology and sustainability, with a focus
 <img src="images/Photo_Thomas_plongée2.jpg" width="40%">
 </center>
 <p>My research journey began during my master’s studies, with an early focus on host–parasite interactions at the <strong>Smithsonian Tropical Research Institute</strong> in Panama. I then turned to marine phylogeography, studying the evolutionary history of European kelp species at the <strong>Station Biologique de Roscoff</strong> in France.</p>
-<p>During my PhD at the <strong>University of Montpelier</strong>, I investigated the links between population genetics and community ecology using freshwater snails in the French West Indies as a model system. My work focused on species persistence in fragmented, unstable landscapes and the connections between different levels of biodiversity. I combined ecological and genetic approaches to develop one of the most detailed quantitative models of a natural metapopulation, revealing a persistence-competition trade-off that helps explain species coexistence in that system. I also demonstrated how habitat connectivity can drive positive correlations between genetic and species diversity (SGDCs), combining empirical research, theoretical modeling, and meta-analysis.</p>
+<p>During my PhD at the <strong>University of Montpellier</strong>, I investigated the links between population genetics and community ecology using freshwater snails in the French West Indies as a model system. My work focused on species persistence in fragmented, unstable landscapes and the connections between different levels of biodiversity. I combined ecological and genetic approaches to develop one of the most detailed quantitative models of a natural metapopulation, revealing a persistence-competition trade-off that helps explain species coexistence in that system. I also demonstrated how habitat connectivity can drive positive correlations between genetic and species diversity (SGDCs), combining empirical research, theoretical modeling, and meta-analysis.</p>
 <p>After completing my Ph.D., I held a postdoctoral position at the <strong>Centre for Island Research and Environmental Observatory</strong> (<strong>CRIOBE</strong>) from 2012 to 2013, where I began investigating the resilience and stability of coral reef ecosystems facing multiple and recurrent disturbances. From 2013 to 2015, I continued this line of research at the <strong>University of Montréal</strong> (Canada), while also expanding my work into evolutionary ecology.</p>
-<p>Between 2015 and 2021, I was based at the <strong>Marine Science Institute</strong> at the <strong>University of California, Santa Barbara</strong> (USA), where I conducted research within two large interdisciplinary programs: the <strong>Marine Biodiversity Observation Network</strong> (<strong>MBON</strong>) and the <strong>Long-Term Ecological Research</strong> (<strong>LTER</strong>) program. My work focused on ecosystem stability through space and time. I developed new statistical frameworks to link ecological stability across spatial scales and organizational levels, combining empirical data, statistical modeling, and meta-analyses. Using long-term spatio-temporal ecological monitoring datasets—primarily from kelp forests, but also from a range of ecosystems within the LTER Network—my work demonstrated how spatial relationships among communities are critical for maintaining ecosystem stability. Finally, I explored new approaches to marine biodiversity monitoring within the SBC LTER and MBON, focusing on environmental DNA (eDNA) metabarcoding. This work showed that eDNA can effectively capture the diversity of marine fish communities with greater taxonomic resolution and far less field effort than traditional methods.</p>
-<p>Since 2022, I have been a permanent research scientist (CRCN) at the <strong>French National Research Institute for Sustainable Development</strong> (<strong>IRD</strong>).</p>
+<p>Between 2015 and 2021, I was based at the <strong>Marine Science Institute</strong> at the <strong>University of California, Santa Barbara</strong> (USA), where I conducted research within two large interdisciplinary programs: the <strong>Marine Biodiversity Observation Network</strong> (<strong>MBON</strong>) and the <strong>Long-Term Ecological Research</strong> (<strong>LTER</strong>) program. My work focused on ecosystem stability through space and time. I developed new statistical frameworks to link ecological stability across spatial scales and organizational levels, combining empirical data, statistical modeling, and meta-analyses. Using long-term spatio-temporal ecological monitoring datasets—primarily from kelp forests, but also from a range of ecosystems within the LTER Network—my work demonstrated how spatial relationships among communities are critical for maintaining ecosystem stability. Finally, I explored new approaches to marine biodiversity monitoring within the SBC LTER abd MBON, focusing on environmental DNA (eDNA) metabarcoding. This work showed that eDNA can effectively capture the diversity of marine fish communities with greater taxonomic resolution and far less field effort than traditional methods.</p>
+<p>Since 2022, I have been a permanent research scientist (CRCN) at the <strong>French National Research Institute for Sustainable Development</strong> (<strong>IRD</strong>),</p>
 </section>
 <section id="teaching" class="level1">
 <h1>🎓 Teaching</h1>
@@ -309,7 +309,7 @@ Université de Montpellier, Place Eugène Bataillon - bâtiment 24 - CC093<br>
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/thomaslamy\.com");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

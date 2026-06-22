@@ -1,0 +1,14 @@
+---
+title: "News"
+listing:
+  contents: "*/index.qmd"
+  type: default
+  sort: "date desc"
+  date-format: "MMMM YYYY"
+  categories: true
+  feed: true
+  fields: [date, title, description, image, categories]
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+---

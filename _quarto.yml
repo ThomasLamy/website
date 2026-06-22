@@ -2,14 +2,13 @@ project:
   type: website
   output-dir: docs
   resources:
-    - "content/"
-    - "css"
-    - CNAME
+     - "css"
 
 website:
   title: "Thomas Lamy"
   description: "The personal website of Thomas Lamy"
-  image: images/tlamy_circle.png
+  site-url: https://thomaslamy.com
+  image: images/tlamy_circle2.png
   search:
     location: navbar
     type: overlay
@@ -19,7 +18,7 @@ website:
       - text: "Home"
         href: index.qmd
       - text: "News"
-        href: news.qmd
+        href: news/index.qmd
       - text: "About"
         href: about.qmd
       - text: "Research"
