@@ -286,3 +286,42 @@ make_media_list <- function() {
     )
   return(paste(temp$post, collapse = "\n"))
 }
+
+# --- Featured publications as cards (distinct from the numbered list) --------
+make_featured_cards <- function(pubs) {
+  if (!"featured" %in% names(pubs)) return(htmltools::HTML(""))
+  x <- pubs[which(toupper(trimws(as.character(pubs$featured))) == "TRUE"), ]
+  if (nrow(x) == 0) return(htmltools::HTML(""))
+  x <- x[order(-x$year), ]
+  
+  cards <- vapply(seq_len(nrow(x)), function(i) {
+    p <- x[i, ]
+    blurb <- if ("feat_blurb" %in% names(p) && length(p$feat_blurb) == 1 && !is.na(p$feat_blurb)) p$feat_blurb else ""
+    link  <- if (length(p$url_pub) == 1 && !is.na(p$url_pub)) p$url_pub else paste0("https://doi.org/", p$doi)
+    glue::glue(
+      '<a class="feat-card" href="{link}" target="_blank">
+         <div class="feat-journal">{p$journal} &middot; {p$year}</div>
+         <div class="feat-title">{p$title}</div>
+         <div class="feat-blurb">{blurb}</div>
+       </a>'
+    )
+  }, character(1))
+  
+  htmltools::HTML(paste0('<div class="feat-grid">', paste(cards, collapse = ""), '</div>'))
+}
+
+# --- Publication list grouped by year, with year sub-headers ----------------
+make_pub_list_grouped <- function(pubs, category) {
+  x <- pubs[which(pubs$category == category), ]
+  x <- x[order(-x$year), ]                      # sort by year, most recent first
+  out <- character(0); current_year <- NULL
+  for (i in seq_len(nrow(x))) {
+    yr <- x$year[i]
+    if (is.null(current_year) || yr != current_year) {
+      out <- c(out, glue::glue('<h3 class="pub-year">{yr}</h3>'))
+      current_year <- yr
+    }
+    out <- c(out, as.character(make_pub(x[i, ], index = i)))
+  }
+  htmltools::HTML(paste(out, collapse = ""))
+}

@@ -269,9 +269,51 @@ pre {
   border: 2px solid #5654A2;
 }
 
-/* Force-disable banner image on all pages */
-.quarto-title-banner {
+/* Force-disable banner image on index page */
+body.home-banner .quarto-title-banner .quarto-title {
   display: none !important;
-  height: 0 !important;
-  background-image: none !important;
+}
+
+/* ---------- News page banners (scoped via body.news-banner) ---------- */
+  body.news-banner .quarto-title-banner {
+    
+    /* (2) Crop: cover the band, cropping from the CENTER */
+      background-size: cover !important;
+    background-position: center center !important;  /* tweak vertical focus below */
+      
+      /* (1) Width: align the banner with the text column */
+      max-width: 850px;        /* approx. content width — adjust to taste */
+      margin-inline: auto;     /* center the band */
+      border-radius: 10px;     /* rounded corners (optional) */
+      
+      /* (3) Banner-like height + anchor the title at the bottom */
+      min-height: 220px;       /* adjust 180–280px to taste */
+      display: flex;
+    align-items: flex-end;
+    
+    /* Spacing below the banner (optional) */
+      margin-bottom: 1.5rem;
+    
+    /* Needed so the dark overlay below can be positioned */
+      position: relative;
+  }
+
+/* (3) Dark gradient overlay for white-title legibility on bright photos */
+  body.news-banner .quarto-title-banner::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.40));
+  }
+
+/* Keep the title above the overlay */
+  body.news-banner .quarto-title-banner > * {
+    position: relative;
+    z-index: 1;
+  }
+
+body.news-banner .quarto-title-banner .quarto-title-banner-title,
+body.news-banner .quarto-title-banner .quarto-title {
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.8);
 }

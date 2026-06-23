@@ -1,7 +1,10 @@
 [
   {
     "listing": "/news/index.html",
-    "items": []
+    "items": [
+      "/news/2026-04-Rasoanirina-article/index.html",
+      "/news/2025-10-mescal-kickoff/index.html"
+    ]
   },
   {
     "listing": "/projects/index.html",

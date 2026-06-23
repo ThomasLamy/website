@@ -24,6 +24,36 @@ ol {
 p {
   margin: 5px 0 0 0;
 }
+
+.feat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem 0;
+}
+.feat-card {
+  display: block;
+  padding: 1rem 1.1rem;
+  border: 1px solid #e2e8f0;
+  border-left: 4px solid #1b6a7a;     /* accent teal */
+  border-radius: 8px;
+  background: #f8fafc;
+  text-decoration: none !important;
+  color: inherit;
+  transition: box-shadow .15s, transform .15s;
+}
+.feat-card:hover { box-shadow: 0 4px 14px rgba(0,0,0,.10); transform: translateY(-2px); }
+.feat-journal { font-size: .8rem; color: #1b6a7a; font-weight: 600; }
+.feat-title   { font-weight: 600; margin: .3rem 0; line-height: 1.3; }
+.feat-blurb   { font-size: .9rem; color: #475569; }
+
+.pub-year {
+  margin: 1.5rem 0 0.5rem 0;
+  padding-bottom: .2rem;
+  border-bottom: 2px solid #1b6a7a;   /* ton teal */
+  color: #1b6a7a;
+}
+
 </style>
 ```
 
@@ -54,12 +84,16 @@ pubs <- get_pubs()
 
 <br>
 
-## In preparation or in review Articles
+## Selected publications
+`r make_featured_cards(pubs)`
+
+
+## In preparation or in review publications
 
 `r make_pub_list(pubs, "in_prep")`
 
-## Peer-Reviewed Journal Articles
+## Peer-Reviewed Journal publications
 
-`r make_pub_list(pubs, "peer_reviewed")`
+`r make_pub_list_grouped(pubs, "peer_reviewed")`
 
 
