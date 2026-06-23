@@ -1,3 +1,5 @@
-# For all news within the fodler
+# For all news within the folder
 freeze: true
-title-block-banner: false
+lightbox: true
+title-block-banner-color: "#ffffff"
+body-classes: news-banner
