@@ -170,9 +170,6 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Most of my current research is based in the <strong>Western Indian Ocean</strong>, particularly in <strong>Madagascar</strong>, and is supported by two major projects: <a href="./projects/2025-ARMS_resilience/index.html"><strong>ARMS Resilience</strong></a> in Madagascar and <a href="./projects/2025-mescal/index.html"><strong>MESCAL</strong></a>, which spans the eastern coast of Africa, including South Africa, Mozambique, Tanzania, and Kenya. For more details, visit my <a href="projects/">Projects Page</a>.</p>
-<p>Below is my list of research articles.</p>
-<!-- Remove margin under list items -->
 <style>
 ol {
     margin-bottom: 5px;
@@ -210,17 +207,81 @@ p {
   color: #1b6a7a;
 }
 
+/* spacing between intro paragraph and the theme cards */
+.theme-grid { margin: 2.5rem 0 1.75rem 0; row-gap: 1.25rem; }
+
+/* theme cards */
+.theme-card {
+  padding: 1.25rem 1.25rem;
+  border: 1px solid #e2e8f0;
+  border-top: 4px solid #1b6a7a;
+  border-radius: 10px;
+  background: #f8fafc;
+  transition: box-shadow .15s, transform .15s;
+}
+.theme-card:hover { box-shadow: 0 6px 18px rgba(0,0,0,.08); transform: translateY(-3px); }
+.theme-card .theme-icon { display: block; font-size: 1.6rem; color: #1b6a7a; margin-bottom: .4rem; }
+.theme-card .theme-title {
+  display: block;
+  font-weight: 600;
+  color: #1b6a7a;
+  font-size: 1.05rem;
+  line-height: 1.3;
+  margin: 0 0 .4rem 0;
+}
+.theme-card p  { margin: 0; font-size: .92rem; color: #475569; line-height: 1.55; }
+
+/* cross-cutting line */
+.research-crosscut {
+  margin: 0 0 1.75rem 0;
+  padding-top: .9rem;
+  border-top: 1px solid #e2e8f0;
+  color: #475569;
+  font-size: .95rem;
+}
+
+.theme-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);   /* 3 cartes côte à côte */
+  gap: 1rem;
+  margin: 2.5rem 0 1.75rem 0;
+}
+@media (max-width: 768px) {
+  .theme-grid { grid-template-columns: 1fr; }   /* empilées sur mobile */
+}
+
 </style>
+<p>My research focuses on understanding how marine biodiversity is distributed, what processes drive the stability and resilience of coastal ecosystems, and how coastal human communities depend on them for food and livelihoods. It is currently centered on the Western Indian Ocean, particularly Madagascar, through two major projects, <a href="./projects/2025-ARMS_resilience/index.html"><strong>ARMS Resilience</strong></a> and <a href="./projects/2025-mescal/index.html"><strong>MESCAL</strong></a>, and is organized around three connected themes (see my <a href="./about.html">background</a> for more):</p>
+<div class="theme-grid">
+<div class="theme-card">
+<p><span class="theme-icon"><i class="fa-solid fa-scale-balanced"></i></span></p>
+<p><span class="theme-title">Biodiversity, stability &amp; resilience</span></p>
+<p>How biodiversity stabilizes ecosystems across scales, from kelp forests to coral reefs, and which processes underpin their resilience to climate change and overfishing.</p>
+</div>
+<div class="theme-card">
+<p><span class="theme-icon"><i class="fa-solid fa-circle-nodes"></i></span></p>
+<p><span class="theme-title">Spatial ecology, connectivity &amp; conservation</span></p>
+<p>How marine biodiversity is organized in space, from genes to species to whole seascapes, and how marine protected areas can help conserve it in a changing climate.</p>
+</div>
+<div class="theme-card">
+<p><span class="theme-icon"><i class="fa-solid fa-fish"></i></span></p>
+<p><span class="theme-title">Aquatic food systems &amp; small-scale fisheries</span></p>
+<p>Linking marine ecology, artisanal fisheries, and nutrition to strengthen food security and equitable conservation in vulnerable coastal communities of the Western Indian Ocean.</p>
+</div>
+</div>
+<div class="research-crosscut">
+<p>Across these themes, I integrate complementary tools, from DNA metabarcoding and ecological surveys to statistical modeling and local ecological knowledge, guided by a commitment to open science and North-South research equity.</p>
+</div>
 <center>
 <p><a href="https://scholar.google.fr/citations?user=i3F3Q2UAAAAJ&amp;hl=fr" class="icon-link" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i> Google Scholar</a><a href="https://orcid.org/0000-0002-7881-0578" class="icon-link" target="_blank" rel="noopener"><i class="ai ai-orcid"></i> ORCID</a><a href="https://www.researchgate.net/profile/Thomas-Lamy-3?ev=hdr_xprf" class="icon-link" target="_blank" rel="noopener"><i class="ai ai-researchgate"></i> Research Gate</a></p>
-<p><br></p>
-<p><u>Underline</u> indicates advisee; * graduate student, **undergraduate student</p>
-</center>
-<p><br></p>
 <section id="selected-publications" class="level2">
 <h2 class="anchored" data-anchor-id="selected-publications">Selected publications</h2>
 <p></p><div class="feat-grid"><a class="feat-card" href="https://besjournals.onlinelibrary.wiley.com/doi/10.1002/pan3.70311" target="_blank">   <div class="feat-journal">People and Nature · 2026</div>   <div class="feat-title">The paradox of mosquito net fishing: Complex socio-ecological trade-offs in southwestern Madagascar</div>   <div class="feat-blurb">Mosquito net fishing in Madagascar feeds households today but traps them in long-term poverty and ecological decline — a striking socio-ecological dilemma where women play a central role.</div> </a><a class="feat-card" href="https://onlinelibrary.wiley.com/doi/10.1002/edn3.70307" target="_blank">   <div class="feat-journal">Environmental DNA · 2026</div>   <div class="feat-title">Active Versus Passive eDNA Sampling Across Depths at a Tropical Fish-Aggregating Device (FAD)</div>   <div class="feat-blurb">Off Bali, low-cost passive eDNA samplers matched active filtration in detecting pelagic fish at a fish-aggregating device, a practical, transferable tool for monitoring biodiversity in hard-to-reach waters.</div> </a></div><p></p>
-</section>
+<p><br></p>
+<p><u>Underline</u> indicates advisee; * graduate student, **undergraduate student</p>
+</section></center>
+<p><br></p>
+
 <section id="in-preparation-or-in-review-publications" class="level2">
 <h2 class="anchored" data-anchor-id="in-preparation-or-in-review-publications">In preparation or in review publications</h2>
 <p></p><div class="pub"> <div class="grid"> <div class="g-col-11"> <ol> <li><u><u>**Todimazava LD</u></u>, Darias MJ, Mouquet-Rivier CM, Mahafina JA, <strong>Lamy T</strong> (NA) “Small dried fishes are an affordable and nutritious aquatic food in Madagascar” <em>Submitted</em>.</li> </ol>  </div> <div class="g-col-1">  </div> </div> <ul style="list-style: none;"><li></li></ul> </div><div class="pub"> <div class="grid"> <div class="g-col-11"> <ol start="2"> <li>Omukoto JO, Markhus MW, Ahern M, Ali TM, Berkström C, Gaspare L, Hicks C, Kamau-Mbuthia E, Kolding J, Kimani P, <strong>Lamy T</strong>, Marigu J, Obiero K, Nombo MP, Maire E, Mbaru EK, Robinson JPW, Kjellevold M (NA) “Regional collaboration on nutrient composition and contaminants in aquatic foods, to strengthen food security in Western Indian Ocean communities” <em>Accepted in Western Indian Ocean Journal of Marine Science</em>.</li> </ol>  </div> <div class="g-col-1">  </div> </div> <ul style="list-style: none;"><li></li></ul> </div><div class="pub"> <div class="grid"> <div class="g-col-11"> <ol start="3"> <li><u>*Kana Djifack EE</u>, Belda E, <strong>Lamy T</strong>, Baletaud F, Tsopze N, Zahir J, Zucker JD, Vigliola L, Prifti E (NA) “An integrative environmental-DNA framework for identifying key species along ecological gradients: combining sparse classification, co-presence network topology, and gene set enrichment on marine fish habitats from New Caledonia” <em>Submitted</em>.</li> </ol>  </div> <div class="g-col-1">  </div> </div> <ul style="list-style: none;"><li></li></ul> </div><div class="pub"> <div class="grid"> <div class="g-col-11"> <ol start="4"> <li><u><u>**Nomenjanahary KF</u></u>, *Randrianandrasana J, Jaonalison H, Tsilavonarivo J, Mandimbilaza T, Vignard C, Vigliola L, Hartmann A, Todinanahary G, <strong>Lamy T</strong> (NA) “Habitat characteristics shape reef fish assemblages in the Bay of Ranobe, Madagascar: A video-based baseline for artificial reef deployment” <em>Submitted</em>.</li> </ol>  </div> <div class="g-col-1">  </div> </div> <ul style="list-style: none;"><li></li></ul> </div><div class="pub"> <div class="grid"> <div class="g-col-11"> <ol start="5"> <li><u>*Randrianandrasana J</u>, Falinirina A, Mandimbilaza T, Tsimbazafihery PJ, <strong>Lamy T</strong>, Gibbons E, Hartmann AC, Todinanahary GGB (NA) “Coral, invertebrate, and fish assemblages across reef habitats and proximity to fishers in Madagascar’s marine biodiversity hotspot” <em>Submitted</em>.</li> </ol>  </div> <div class="g-col-1">  </div> </div> <ul style="list-style: none;"><li></li></ul> </div><p></p>

@@ -1,18 +1,18 @@
 [
   {
-    "listing": "/news/index.html",
-    "items": [
-      "/news/2026-04-Rasoanirina-article/index.html",
-      "/news/2025-10-mescal-kickoff/index.html"
-    ]
-  },
-  {
     "listing": "/projects/index.html",
     "items": [
       "/projects/2025-ARMS_resilience/index.html",
       "/projects/2025-mescal/index.html",
       "/projects/2024-overfish/index.html",
       "/projects/2022-fishtail/index.html"
+    ]
+  },
+  {
+    "listing": "/news/index.html",
+    "items": [
+      "/news/2026-04-Rasoanirina-article/index.html",
+      "/news/2025-10-mescal-kickoff/index.html"
     ]
   }
 ]

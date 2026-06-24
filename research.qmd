@@ -1,6 +1,6 @@
 ---
 title: "Research"
-preview: images/Ecology_cover_2020.jpg
+image: images/Ecology_cover_2020.jpg
 execute: 
   echo: false
   message: false
@@ -9,12 +9,6 @@ format: html
 toc: true
 toc-location: left
 ---
-
-Most of my current research is based in the **Western Indian Ocean**, particularly in **Madagascar**, and is supported by two major projects: [**ARMS Resilience**](projects/2025-ARMS_resilience/index.qmd) in Madagascar and [**MESCAL**](projects/2025-mescal/index.qmd), which spans the eastern coast of Africa, including South Africa, Mozambique, Tanzania, and Kenya. For more details, visit my [Projects Page](projects/).
-
-Below is my list of research articles.
-
-<!-- Remove margin under list items -->
 
 ```{=html}
 <style>
@@ -54,6 +48,49 @@ p {
   color: #1b6a7a;
 }
 
+/* spacing between intro paragraph and the theme cards */
+.theme-grid { margin: 2.5rem 0 1.75rem 0; row-gap: 1.25rem; }
+
+/* theme cards */
+.theme-card {
+  padding: 1.25rem 1.25rem;
+  border: 1px solid #e2e8f0;
+  border-top: 4px solid #1b6a7a;
+  border-radius: 10px;
+  background: #f8fafc;
+  transition: box-shadow .15s, transform .15s;
+}
+.theme-card:hover { box-shadow: 0 6px 18px rgba(0,0,0,.08); transform: translateY(-3px); }
+.theme-card .theme-icon { display: block; font-size: 1.6rem; color: #1b6a7a; margin-bottom: .4rem; }
+.theme-card .theme-title {
+  display: block;
+  font-weight: 600;
+  color: #1b6a7a;
+  font-size: 1.05rem;
+  line-height: 1.3;
+  margin: 0 0 .4rem 0;
+}
+.theme-card p  { margin: 0; font-size: .92rem; color: #475569; line-height: 1.55; }
+
+/* cross-cutting line */
+.research-crosscut {
+  margin: 0 0 1.75rem 0;
+  padding-top: .9rem;
+  border-top: 1px solid #e2e8f0;
+  color: #475569;
+  font-size: .95rem;
+}
+
+.theme-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);   /* 3 cartes côte à côte */
+  gap: 1rem;
+  margin: 2.5rem 0 1.75rem 0;
+}
+@media (max-width: 768px) {
+  .theme-grid { grid-template-columns: 1fr; }   /* empilées sur mobile */
+}
+
 </style>
 ```
 
@@ -70,11 +107,48 @@ source("_common.R")
 pubs <- get_pubs()
 ```
 
+My research focuses on understanding how marine biodiversity is distributed, what processes drive the stability and resilience of coastal ecosystems, and how coastal human communities depend on them for food and livelihoods. It is currently centered on the Western Indian Ocean, particularly Madagascar, through two major projects, [**ARMS Resilience**](projects/2025-ARMS_resilience/index.qmd) and [**MESCAL**](projects/2025-mescal/index.qmd), and is organized around three connected themes (see my [background](about.qmd) for more):
+
+:::: {.theme-grid}
+
+::: {.theme-card}
+<span class="theme-icon"><i class="fa-solid fa-scale-balanced"></i></span>
+
+[Biodiversity, stability & resilience]{.theme-title}
+
+How biodiversity stabilizes ecosystems across scales, from kelp forests to coral reefs, and which processes underpin their resilience to climate change and overfishing.
+:::
+
+::: {.theme-card}
+<span class="theme-icon"><i class="fa-solid fa-circle-nodes"></i></span>
+
+[Spatial ecology, connectivity & conservation]{.theme-title}
+
+How marine biodiversity is organized in space, from genes to species to whole seascapes, and how marine protected areas can help conserve it in a changing climate.
+:::
+
+::: {.theme-card}
+<span class="theme-icon"><i class="fa-solid fa-fish"></i></span>
+
+[Aquatic food systems & small-scale fisheries]{.theme-title}
+
+Linking marine ecology, artisanal fisheries, and nutrition to strengthen food security and equitable conservation in vulnerable coastal communities of the Western Indian Ocean.
+:::
+
+::::
+
+::: {.research-crosscut}
+Across these themes, I integrate complementary tools, from DNA metabarcoding and ecological surveys to statistical modeling and local ecological knowledge, guided by a commitment to open science and North-South research equity.
+:::
+
+
 <center>
 
-
-
 `r htmltools::HTML(paste0(icon_link(icon = "ai ai-google-scholar", text = "Google Scholar", url  = "https://scholar.google.fr/citations?user=i3F3Q2UAAAAJ&hl=fr"), icon_link(icon = "ai ai-orcid", text = "ORCID", url  = "https://orcid.org/0000-0002-7881-0578"), icon_link(icon = "ai ai-researchgate", text = "Research Gate", url = "https://www.researchgate.net/profile/Thomas-Lamy-3?ev=hdr_xprf")))`
+
+
+## Selected publications
+`r make_featured_cards(pubs)`
 
 <br>
 
@@ -83,10 +157,6 @@ pubs <- get_pubs()
 </center>
 
 <br>
-
-## Selected publications
-`r make_featured_cards(pubs)`
-
 
 ## In preparation or in review publications
 
