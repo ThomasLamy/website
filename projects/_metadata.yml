@@ -11,7 +11,7 @@ citation: false
 # Default for table of contents
 toc: true
 toc-title: Table of contents
-toc-location: right
+toc-location: left
 
 # Wrap overflow code
 format: 

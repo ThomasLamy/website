@@ -27,6 +27,15 @@ website:
         href: projects/index.qmd
       - text: "People"
         href: people.qmd
+  page-footer:
+    left: "© 2026 Thomas Lamy · IRD, UMR MARBEC"
+    center: "[Image credits](/credits.qmd)"
+    right:
+      - icon: envelope
+        href: "mailto:thomas.lamy@ird.fr"
+        aria-label: Email
+      - text: "ORCID"
+        href: "https://orcid.org/0000-0002-7881-0578"   
 
 format:
   html:

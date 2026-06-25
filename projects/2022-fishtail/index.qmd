@@ -1,38 +1,59 @@
 ---
-title: "FISHTAIL (2022)"
+title: "FISHTAIL"
 subtitle: "Diversity, nutritional and socio-economic benefits of small dried fishes from coastal to inland Madagascar"
 date: 2022-01-01
 categories:
-  - Small-scale fisheries
-  - Nutrition
+  - Fisheries
+  - Food security
+  - DNA metabarcoding
+  - WIO
 image: "Mada2022p1-146.jpg"
 title-block-banner: false
-title-block-style: none
 page-class: project-page
 layout: single
 ---
 
+![](Mada2022p1-146.jpg){.project-banner-img}
+
+FISHTAIL explores the hidden diversity of small dried fishes in Madagascar, and asks whether they can carry essential micronutrients from coastal fisheries to inland communities.
+
 ::: {.project-meta}
-**Start – End:** January 2022 – December 2023  
-**Funding:** Montpelier University of Excellence, KIM Sea & Coast  
-**Budget:** 23 000 €  
-**Role:** PI  
-**Geographic area:** Madagascar
+<i class="fa-solid fa-calendar-days"></i> **Duration** January 2022 – December 2023  
+<i class="fa-solid fa-hand-holding-dollar"></i> **Funding** Montpellier University of Excellence, KIM Sea & Coast  
+<i class="fa-solid fa-coins"></i> **Budget** €23,000  
+<i class="fa-solid fa-user-group"></i> **Role** PI  
+<i class="fa-solid fa-location-dot"></i> **Area** Madagascar
 :::
 
 ## Summary
-![small dried fishes in Madagascar](featured.png)
 
-Fish is a critical source of micronutrients essential to human health. Fish consumption can contribute to nutritional security by reducing micronutrient deficiencies that result in a million deaths annually, especially in the poorest countries. However, overfishing threatens fish sustainability and there is a pressing need to understand how we can balance sustainable fisheries and nutritional needs. Madagascar perfectly illustrates this challenge, as many small-scale fisheries are intensive and non-selective with small fishes (<8-12 cm) representing a large fraction of all captures. Yet, those small fishes represent a potentially very important, but poorly understood, sector of the small-scale fishery industry. While a fraction of the small fish captured is kept locally, another one is sun dried and exported towards inland markets. Hence, small dried fishes can travel over long distances and potentially supply poor inland rural areas with critical micronutrients. Given the importance of small dried marine fishes as a unique link between natural ecosystems and human societies, the main goal of this project is to shed light on their diversity and assess whether they can enhance micronutrient supply from coastal to inland areas in Madagascar. We will focus on markets across a 929 km coast-to-inland distance gradient in Madagascar and combine molecular taxonomy, nutritional analysis, and socio-economic surveys to (1) characterize the taxonomic diversity of small dried fishes (2) quantify their micronutrients to investigate how micronutrients transit towards inland areas and (3) conduct socio-economic surveys to evaluate how the valorization of small fishes by fishmen and consumption preferences influence taxonomic and nutritional diversities. By addressing the current defaunation of oceans and its implications for human nutrition, this project aims at filling a critical knowledge gap for anticipating impacts of overfishing on socio-ecological systems
+Fish is a critical source of the micronutrients essential to human health, and fish consumption can reduce the micronutrient deficiencies responsible for a million deaths every year, especially in the poorest countries. Yet overfishing threatens this supply, creating a pressing need to balance sustainable fisheries with nutritional needs. Madagascar illustrates this tension: many small-scale fisheries are intensive and non-selective, and small fishes (under 8–12 cm) make up a large share of catches.
 
-![Léono TODIMAZAVA conducting interviews to assess the diversity and origins of small dried fishes in Antsirabé, Madagascar](Mada2022p2-202.jpg){ width=50% }
+These small fishes are a potentially important but poorly understood part of the fishery. While some are kept locally, others are sun-dried and traded towards inland markets, travelling long distances and potentially supplying remote rural areas with critical micronutrients. Working across a 929 km coast-to-inland gradient, FISHTAIL combines molecular taxonomy, nutritional analysis, and socio-economic surveys to shed light on this unique link between marine ecosystems and human societies.
+
+## Objectives
+
+::: {.objectives}
+1. **Taxonomic diversity.** Characterize the diversity of small dried fishes using molecular taxonomy.
+2. **Nutritional value.** Quantify their micronutrient content and investigate how micronutrients transit from coastal to inland areas.
+3. **Socio-economic value chains.** Examine how fishing practices, fishers' livelihoods, and the central role of women shape the trade and valorization of small fishes, and ultimately the taxonomic and nutritional diversity that reaches consumers from coastal to inland markets.
+:::
+
+By connecting ocean defaunation to human nutrition, FISHTAIL fills a critical knowledge gap for anticipating the impacts of overfishing on socio-ecological systems.
+
+![Léono Todimazava conducting interviews on the diversity and origins of small dried fishes in Antsirabe, Madagascar](Mada2022p2-202.jpg){width=70%}
 
 ## Partner organizations
 
-- ["Institut halieutique et des sciences marines (IH.SM) Madagascar"](https://student.ihsm.mg/)
-- ["Laboratoire Mixe International (LMI) MIKAROKA between IRD and IH.SM Madagascar"](https://mikaroka.ihsm.mg/)
+**Madagascar**
 
-## Students involved  
-- [Léono TODIMAZAVA]() (IH.SM)
-- [Franceline RASOANIRINA]() (IH.SM)
+::: {.partner-grid}
+[![IH.SM](/images/logos/ihsm.png)](https://student.ihsm.mg/){target="_blank" title="Institut Halieutique et des Sciences Marines"}
+:::
 
+In partnership with [LMI MIKAROKA](https://mikaroka.ihsm.mg/){target="_blank"}, the IRD–IH.SM joint laboratory.
+
+## Team
+
+- Léono Todimazava (IH.SM)
+- Franceline Rasoanirina (IH.SM)

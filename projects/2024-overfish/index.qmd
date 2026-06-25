@@ -2,51 +2,63 @@
 title: "OVERFISH (2024-2025)"
 subtitle: "Interacting effects between overfishing and herbivory on the resilience of coral reefs in Madagascar"
 date: 2024-01-01
-categories:
-  - Trophic ecology
-  - Coral reefs
-  - Resilience
-  - DNA metabarcoding
+categories: [Resilience, Fisheries, DNA metabarcoding, WIO]
 image: "overfish.png"
 title-block-banner: false
-title-block-style: none
 page-class: project-page
 layout: single
 ---
 
+![](overfish.png){.project-banner-img}
+
+OVERFISH investigates how overfishing reshapes the trophic interactions between herbivorous fishes and algae on Madagascar's coral reefs, and what this means for reef resilience.
+
 ::: {.project-meta}
-**Start – End:** January 2024 – June 2025  
-**Funding:** Montpelier University of Excellence  
-**Budget:** 15 000 €  
-**Role:** PI  
-**Geographic area:** Madagascar
+<i class="fa-solid fa-calendar-days"></i> **Duration** January 2024 – June 2025  
+<i class="fa-solid fa-hand-holding-dollar"></i> **Funding** Montpellier University of Excellence  
+<i class="fa-solid fa-coins"></i> **Budget** €15,000  
+<i class="fa-solid fa-user-group"></i> **Role** PI  
+<i class="fa-solid fa-location-dot"></i> **Area** Ranobe Bay, Madagascar
 :::
 
 ## Summary
-![Herbivore fishes in Madagascar](featured.png)
-Understanding herbivory in coral reefs is critical to assessing reef resilience, yet our current knowledge is severely limited due to a lack of high-resolution trophic data. Traditionally, fish species have been grouped into broad functional categories, which oversimplifies complex trophic interactions and masks important ecological differences among species. In coral reef systems, especially, herbivory is a key ecological process that helps prevent algal overgrowth and supports coral recruitment. However, we still know remarkably little about what most tropical herbivorous fishes actually eat and how their diets differ within and among species.
 
-Herbivorous fish species are believed to partition resources through different mechanisms, such as spatial segregation or targeting distinct sets of algal resources. These processes shape how the herbivory function operates and influence the structure and stability of the herbivore–algae network. For instance, low trophic niche overlap among species can signal high functional complementarity, meaning the herbivory function depends on a diversity of species. In such cases, species loss may lead to critical ecological disruptions. On the other hand, high redundancy in trophic roles could buffer reef systems against biodiversity loss by ensuring functional compensation among species.
+Herbivory is a key ecological process on coral reefs: by preventing algal overgrowth, it supports coral recruitment and underpins reef resilience. Yet our understanding remains limited, because herbivorous fishes are often lumped into broad functional groups that mask important ecological differences. We still know remarkably little about what most tropical herbivores actually eat, and how their diets differ within and among species.
 
-**Goal 1** of our project addresses these knowledge gaps by applying a novel, DNA-based approach to reconstruct fine-scale trophic networks. Specifically, we will use **DNA metabarcoding** of **gut contents** to determine the way herbivorous fishes achieve herbivory on coral reefs by assessing the extent to which they feed on a similar set of resources or not. We will focus on the five most abundant herbivore species in Ranobe Bay to build a network of trophic interactions and understand the fine-scale resource partitioning within and among species
+How herbivores partition algal resources shapes the structure and stability of the herbivore–algae network. Low trophic overlap signals high complementarity, where the function depends on a diversity of species and species loss can be disruptive; high redundancy, on the contrary, can buffer reefs against biodiversity loss through functional compensation. OVERFISH addresses these gaps through two objectives.
 
-**Goal 2** will be to leverage ongoing GPS tracking and participatory catch survey to estimate fishing pressure on herbivorous fishes. Then, our **Goal 2** will be to characterize the impact of overfishing on the structure and stability of the algal-herbivore network by combining information on fishing pressure with both detailed information on algal-herbivore trophic interactions (**Goal 1**) and in situ fish surveys to test if the loss of key trophic interactions can alter herbivory or if the reconfiguration of algal-herbivore networks can maintain herbivory.
+## Objectives
 
-Together, these objectives will yield critical insights into coral reef resilience, trophic dynamics, and the effects of fishing, with broader implications for sustainable fisheries management and conservation in Madagascar.
+::: {.objectives}
+1. **Fine-scale trophic networks.** Use DNA metabarcoding of gut contents to reconstruct who eats what among the five most abundant herbivore species in Ranobe Bay, and quantify resource partitioning within and among species.
+2. **Impact of overfishing.** Combine GPS tracking and participatory catch surveys to estimate fishing pressure on herbivores, then test how overfishing alters the structure and stability of the algae–herbivore network, and whether network reconfiguration can maintain herbivory.
+:::
 
+Together, these objectives yield insights into coral reef resilience, trophic dynamics, and the effects of fishing, with implications for sustainable fisheries management and conservation in Madagascar.
 
-![OVERFISH Team working on gut content collection](field_mission.png)
+![OVERFISH team working on gut content collection](field_mission.png)
 
 ## Partner organizations
-- ["Institut halieutique et des sciences marines (IH.SM) Madagascar"](https://student.ihsm.mg/)
-- ["Laboratoire Mixe International (LMI) MIKAROKA between IRD and IH.SM Madagascar"](https://mikaroka.ihsm.mg/)
-- ["Reef Doctor"](https://www.reefdoctor.org/)
-- ["UMR AMUR"](https://www.umr-amure.fr/?lang=en)
-- ["UMR LEHNA, Université de Lyon 1"](https://umr5023.univ-lyon1.fr/)
 
-## Students involved
-- [Arthur DROUET]() (IRD)
-- [Kevine NOMENJANAHARY]() (IH.SM)
-- [Léono TODIMAZAVA]() (IH.SM)
-- [Franceline RASOANIRINA]() (IH.SM)
+**Madagascar**
 
+::: {.partner-grid}
+[![IH.SM](/images/logos/ihsm.png)](https://student.ihsm.mg/){target="_blank" title="Institut Halieutique et des Sciences Marines"}
+[![Reef Doctor](/images/logos/reef-doctor.png)](https://www.reefdoctor.org/){target="_blank" title="Reef Doctor"}
+:::
+
+In partnership with [LMI MIKAROKA](https://mikaroka.ihsm.mg/){target="_blank"}, the IRD–IH.SM joint laboratory.
+
+**France**
+
+::: {.partner-grid}
+[![UMR AMURE](/images/logos/amure.png)](https://www.umr-amure.fr/?lang=en){target="_blank" title="UMR AMURE"}
+[![UMR LEHNA](/images/logos/lehna.png)](https://umr5023.univ-lyon1.fr/){target="_blank" title="UMR LEHNA, Université Lyon 1"}
+:::
+
+## Team
+
+- Arthur Drouet (IRD)
+- Kevine Nomenjanahary (IH.SM)
+- Léono Todimazava (IH.SM)
+- Franceline Rasoanirina (IH.SM)

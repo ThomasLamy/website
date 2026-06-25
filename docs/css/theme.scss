@@ -317,3 +317,112 @@ body.news-banner .quarto-title-banner .quarto-title-banner-title,
 body.news-banner .quarto-title-banner .quarto-title {
   text-shadow: 0 1px 6px rgba(0, 0, 0, 0.8);
 }
+
+/* ---------- Project pages: "at a glance" meta card ---------- */
+.project-meta {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-left: 4px solid #1b6a7a;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin: 1.25rem 0 1.75rem 0;
+  font-size: .95rem;
+  line-height: 1.95;
+}
+.project-meta i { color: #1b6a7a; width: 1.25rem; text-align: center; margin-right: .45rem; }
+.project-meta strong { color: #0f172a; margin-right: .35rem; }
+
+/* muted keyword line */
+.project-keywords { font-size: .85rem; color: #64748b; margin: .75rem 0 0 0; }
+
+/* ---------- Project objectives: numbered roadmap with teal badges ---------- */
+.objectives ol {
+  list-style: none;
+  counter-reset: obj;
+  padding-left: 0;
+  margin: 1rem 0;
+}
+.objectives li {
+  counter-increment: obj;
+  position: relative;
+  padding: .15rem 0 1rem 3.2rem;
+  line-height: 1.55;
+}
+.objectives li::before {           /* the teal numbered circle */
+  content: counter(obj);
+  position: absolute;
+  left: 0; top: 0;
+  width: 2rem; height: 2rem;
+  background: #1b6a7a;
+  color: #fff;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 700; font-size: .95rem;
+}
+.objectives li:not(:last-child)::after {   /* connector line (remove if not wanted) */
+  content: "";
+  position: absolute;
+  left: .97rem; top: 2.1rem; bottom: -.1rem;
+  width: 2px; background: #e2e8f0;
+}
+.objectives li strong { color: #0f172a; }
+
+/* ---------- Project hero banner (real <img>, reliable) ---------- */
+.project-banner-img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;          /* recadre l'image en bandeau sans la déformer */
+  object-position: center 35%; /* 30–60% pour cadrer visages/horizon */
+  border-radius: 10px;
+  margin: 0 0 1.75rem 0;
+}
+
+/* ---------- Partner logos grid (grouped by country) ---------- */
+.partner-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.25rem 2rem;
+  margin: .5rem 0 1.5rem 0;
+}
+.partner-grid p { margin: 0; }
+.partner-grid img {
+  height: 70px;
+  width: auto;
+  object-fit: contain;
+  transition: transform .2s, filter .2s;   /* full color by default */
+}
+.partner-grid img:hover {
+  transform: scale(1.08);                  /* gentle zoom on hover */
+  filter: drop-shadow(0 3px 6px rgba(0,0,0,.18));
+}
+
+/* ---------- Lighter page footer ---------- */
+.nav-footer {
+  background: transparent !important;
+  border-top: 1px solid #e2e8f0;
+  color: #94a3b8;
+  font-size: .8rem;
+  padding: 1rem 0;
+}
+.nav-footer a {
+  color: #64748b !important;
+  text-decoration: none;
+}
+.nav-footer a:hover { text-decoration: underline; }
+
+/* ---------- Floated figures (text wraps around) ---------- */
+.float-right {
+  float: right;
+  max-width: 35%;
+  margin: 0.3rem 0 1rem 1.5rem;   /* space on the left + below */
+}
+.float-left {
+  float: left;
+  max-width: 35%;
+  margin: 0.3rem 1.5rem 1rem 0;   /* space on the right + below */
+}
+/* keep the next heading from riding up beside the image */
+.float-right + p, .float-left + p { overflow: hidden; }
+
+.clearfix { clear: both; }

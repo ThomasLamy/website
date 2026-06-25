@@ -1,0 +1,36 @@
+---
+title: "Image credits"
+toc: false
+---
+
+Some images on this website were created by others and are reused under open licenses, credited below. All other photographs are my own or were taken by students and collaborators.
+
+#### Projects
+
+**[MESCAL](projects/2025-mescal/index.qmd)**  
+*Lutjanus fulviflamma* by [Diego Delso][dd], [CC BY-SA 4.0][cc-by-sa] (cropped)
+
+<!-- For new entries:
+**[Project name](projects/xxx/index.qmd)**  
+*Image description* by [Author][author-ref], [License][license-ref] (cropped if modified)
+-->
+
+#### Students & collaborators
+
+**[News](news/2026-04-Rasoanirina-article/index.qmd)**  
+Mosquito net fishing photographs by [Francéline Rasoanirina](people.qmd)
+
+**[FISHTAIL](projects/2022-fishtail/index.qmd)**  
+Fieldwork photographs by me and [Léono Todimazava](people.qmd)
+
+**[OVERFISH](projects/2024-overfish/index.qmd)**  
+Field mission photographs by me, [Léono Todimazava](people.qmd) and [Kevine Franciscaine](people.qmd) 
+
+[//]: # (--- Reference links: declare each author/license once, reuse everywhere ---)
+
+[dd]: https://delso.photo/
+
+[cc-by]:    https://creativecommons.org/licenses/by/4.0
+[cc-by-sa]: https://creativecommons.org/licenses/by-sa/4.0
+[cc-by-nc]: https://creativecommons.org/licenses/by-nc/4.0
+[cc0]:      https://creativecommons.org/publicdomain/zero/1.0
