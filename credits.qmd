@@ -26,6 +26,9 @@ Fieldwork photographs by me and [Léono Todimazava](people.qmd)
 **[OVERFISH](projects/2024-overfish/index.qmd)**  
 Field mission photographs by me, [Léono Todimazava](people.qmd) and [Kevine Franciscaine](people.qmd) 
 
+**[AQUANUT](projects/2026-aquanut/index.qmd)**  
+Fieldwork photograph by Léono Todimazava
+
 [//]: # (--- Reference links: declare each author/license once, reuse everywhere ---)
 
 [dd]: https://delso.photo/

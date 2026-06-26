@@ -1,5 +1,5 @@
 ---
-title: "FISHTAIL"
+title: "FISHTAIL (2022-2023)"
 subtitle: "Diversity, nutritional and socio-economic benefits of small dried fishes from coastal to inland Madagascar"
 date: 2022-01-01
 categories:
