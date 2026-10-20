@@ -16,8 +16,66 @@
 <height>145</height>
 <width>144</width>
 </image>
-<generator>quarto-1.7.29</generator>
-<lastBuildDate>Mon, 20 Apr 2026 22:00:00 GMT</lastBuildDate>
+<generator>quarto-1.10.18</generator>
+<lastBuildDate>Thu, 17 Sep 2026 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>AQUANUT week in Toliara, Madagascar</title>
+  <link>https://thomaslamy.com/news/2026-09-aquanut-toliara/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I just got back from three weeks of fieldwork in southwest Madagascar with IH.SM (University of Toliara), the first of which was entirely dedicated to the <a href="../../projects/2026-aquanut/index.html">AQUANUT</a> project.</p>
+<div class="callout callout-style-simple callout-note callout-titled" title="At a glance">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>At a glance
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><i class="fa-solid fa-location-dot"></i> Toliara &amp; Saint-Augustin, southwest Madagascar <i class="fa-solid fa-clipboard-list"></i> Revising survey questionnaires with Léono Todimazava and the team <i class="fa-solid fa-flask"></i> Pilot study in Saint-Augustin to test the questionnaires in real conditions <i class="fa-solid fa-fish"></i> Market visits as part of our aquatic food monitoring</p>
+</div>
+</div>
+<section id="why-aquanut" class="level2">
+<h2 class="anchored" data-anchor-id="why-aquanut">Why AQUANUT?</h2>
+<p>Aquatic foods are an essential source of protein and micronutrients for vulnerable populations, even hundreds of kilometres inland. Yet they remain largely invisible in nutrition surveys, and their nutritional and food-safety quality is poorly documented in Madagascar.</p>
+<p>AQUANUT assesses their contribution to the nutrition security of women of reproductive age and young children (6 to 23 months) across six sites in the Atsimo-Andrefana region, three coastal and three inland. Consumption surveys, market monitoring, and nutritional analyses of aquatic products will help us co-develop tailored dietary recommendations with local communities.</p>
+<p>The project supports the PhD of <em>Léono Todimazava</em> (IH.SM, University of Toliara; IRD ARTS fellowship), with the team: <strong>Claire Mouquet-Rivier</strong> (IRD, UMR QUALISUD), <strong>Jamal Mahafina</strong> (IH.SM), Gédice Fernand (IH.SM), <strong>Anne-Marie Randrianarivelo</strong> (IH.SM), <strong>Faustine Rio-Puygrenier</strong> (IRD, UMR QUALISUD), and <strong>Andry Razakandrainy</strong> (GRET). A partnership between <strong>IRD</strong>, <strong>UNICEF Madagascar</strong>, <strong>IH.SM</strong>, and <strong>GRET</strong>.</p>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><a href="photo2.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://thomaslamy.com/news/2026-09-aquanut-toliara/photo2.jpeg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><a href="photo4.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://thomaslamy.com/news/2026-09-aquanut-toliara/photo4.jpeg" class="img-fluid"></a></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><a href="photo3.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://thomaslamy.com/news/2026-09-aquanut-toliara/photo3.jpeg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><a href="photo1.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="https://thomaslamy.com/news/2026-09-aquanut-toliara/photo1.jpeg" class="img-fluid"></a></p>
+</div>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>AQUANUT</category>
+  <category>Madagascar</category>
+  <category>mission</category>
+  <guid>https://thomaslamy.com/news/2026-09-aquanut-toliara/</guid>
+  <pubDate>Thu, 17 Sep 2026 22:00:00 GMT</pubDate>
+  <media:content url="https://thomaslamy.com/news/2026-09-aquanut-toliara/featured.jpeg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Mosquito net fishing in Madagascar: a socio-ecological trap</title>
   <link>https://thomaslamy.com/news/2026-04-Rasoanirina-article/</link>
@@ -34,7 +92,7 @@
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-At a glance
+<span class="screen-reader-only">Note</span>At a glance
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -101,7 +159,7 @@ At a glance
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-At a glance
+<span class="screen-reader-only">Note</span>At a glance
 </div>
 </div>
 <div class="callout-body-container callout-body">

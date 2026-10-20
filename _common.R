@@ -310,10 +310,10 @@ make_featured_cards <- function(pubs) {
   htmltools::HTML(paste0('<div class="feat-grid">', paste(cards, collapse = ""), '</div>'))
 }
 
-# --- Publication list grouped by year, with year sub-headers ----------------
+# --- Publication list grouped by year, ordered and numbered by Rank ---------
 make_pub_list_grouped <- function(pubs, category) {
   x <- pubs[which(pubs$category == category), ]
-  x <- x[order(-x$year), ]                      # sort by year, most recent first
+  x <- x[order(-x$Rank), ]                 # most recent (highest Rank) first
   out <- character(0); current_year <- NULL
   for (i in seq_len(nrow(x))) {
     yr <- x$year[i]
@@ -321,7 +321,7 @@ make_pub_list_grouped <- function(pubs, category) {
       out <- c(out, glue::glue('<h3 class="pub-year">{yr}</h3>'))
       current_year <- yr
     }
-    out <- c(out, as.character(make_pub(x[i, ], index = i)))
+    out <- c(out, as.character(make_pub(x[i, ], index = x$Rank[i])))  # number = Rank
   }
   htmltools::HTML(paste(out, collapse = ""))
 }

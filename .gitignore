@@ -6,3 +6,5 @@ CLAUDE.md
 /.quarto/
 **/.DS_Store
 ~$*.xlsx
+
+**/*.quarto_ipynb
